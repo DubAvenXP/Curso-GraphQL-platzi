@@ -10,6 +10,8 @@ const {readFileSync} = require('fs');
 const {join} = require('path');
 const resolvers = require('./lib/resolvers')
 const database = require('./lib/database')
+const store = require('./store/store')
+
 app.use(router);
 
 
